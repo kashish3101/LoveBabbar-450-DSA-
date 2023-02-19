@@ -1,0 +1,40 @@
+class Solution{
+    public:
+    //Function to return the count of number of elements in union of two arrays.
+    int doUnion(int a[], int n, int b[], int m) 
+    {
+       unordered_set <int> s1;
+      // unordered_set <int> s2;
+       //unordered_set <int> s3;
+       for(int i=0;i<n;i++)
+       {
+           s1.insert(a[i]);
+       }//code here
+        for(int i=0;i<m;i++)
+       {
+           s1.insert(a[i]);
+       }//cod
+       return s1.size();
+    }
+};
+//THIS SOLUTION IS NOT MUCH PREFERABLE FOR ALL TEST CASES
+//NEXT SOLUTION
+class Solution{
+    public:
+    //Function to return the count of number of elements in union of two arrays.
+    int doUnion(int a[], int n, int b[], int m) 
+    {
+       unordered_set <int> s1;
+      // unordered_set <int> s2;
+       //unordered_set <int> s3;
+       for(int i=0;i<n;i++)
+       {
+           s1.insert(a[i]);
+       }//code here
+        for(int i=0;i<m;i++)
+       {
+           s1.insert(a[i]);
+       }//cod
+       return s1.size();
+    }
+};
